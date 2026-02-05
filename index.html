@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cockpit IA — Brendabox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    :root {
+      --bg-main: #0e1020;
+      --bg-card: #161a33;
+      --primary: #3b6cff;
+      --secondary: #8b3dff;
+      --accent: #e83d8c;
+      --text-main: #ffffff;
+      --text-muted: #b6b9d6;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top, #1a1f4a, var(--bg-main));
+      color: var(--text-main);
+    }
+
+    header {
+      padding: 32px 24px;
+      text-align: center;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+      font-weight: 600;
+      letter-spacing: 0.4px;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 32px 24px 48px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, var(--bg-card), #11142a);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 14px;
+      padding: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+    }
+
+    .card h2 {
+      margin: 0 0 12px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .card p {
+      font-size: 14px;
+      line-height: 1.5;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 10px 14px;
+      font-size: 13px;
+      text-decoration: none;
+      color: white;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      border-radius: 8px;
+    }
+
+    footer {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 32px 24px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-muted);
+      background: #0b0d1a;
+    }
+
+    footer strong {
+      color: white;
+      font-weight: 500;
+    }
+
+    .contact {
+      margin-top: 14px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .contact a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Cockpit IA</h1>
+  <p>Accès direct à des assistants IA spécialisés</p>
+</header>
+
+<main>
+
+  <div class="card">
+    <h2>Setter IA Coach</h2>
+    <p>Qualification intelligente, gestion des objections et génération de rendez-vous.</p>
+    <a href="https://chatgpt.com/g/g-69355dd3aa788191852eb77084f37b0d-setter-ia-coach-cualificador-inteligente" target="_blank">
+      Ouvrir le GPT
+    </a>
+  </div>
+
+  <div class="card">
+    <h2>Diagnostic IA Personnalisé</h2>
+    <p>Diagnostic structuré du niveau, des usages et des priorités IA.</p>
+    <a href="https://chatgpt.com/g/g-695e0039c57c8191b59e5d5415bb0cef-diagnostic-ia-personnalise-niveau-priorites" target="_blank">
+      Ouvrir le GPT
+    </a>
+  </div>
+
+  <div class="card">
+    <h2>Récap Réseau</h2>
+    <p>Suivi des contacts, opportunités et continuité relationnelle.</p>
+    <a href="https://chatgpt.com/g/g-696dfa8469548191bcfbbbdd5d39897a-recap-reseau-suivi-contacts-opportunites" target="_blank">
+      Ouvrir le GPT
+    </a>
+  </div>
+
+  <div class="card">
+    <h2>Centralisation Projets & Actions</h2>
+    <p>Vision claire des projets, priorités et avancement quotidien.</p>
+    <a href="https://chatgpt.com/g/g-6975ffe0c5f08191ae2436c785975fd5-centralisation-de-gestion-des-projets-actions" target="_blank">
+      Ouvrir le GPT
+    </a>
+  </div>
+
+</main>
+
+<footer>
+  <strong>Bernadette Périer-Dubernet</strong><br>
+  Architecte IA — Brendabox E.I.<br>
+  simplification & structuration des processus
+
+  <div class="contact">
+    📞 <a href="tel:+33764063654">+33&nbsp;7&nbsp;64&nbsp;06&nbsp;36&nbsp;54</a><br>
+    ✉️ <a href="mailto:contact@brendaboxia.com">contact@brendaboxia.com</a>
+  </div>
+</footer>
+
+</body>
+</html>
